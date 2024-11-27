@@ -22,6 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body>
 <?php include 'includes/header.php'; ?>
 
+
 <main>
     <h2>Új Termék Hozzáadása</h2>
     <form method="POST" action="add_product.php">
