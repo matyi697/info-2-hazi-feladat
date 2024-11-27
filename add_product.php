@@ -20,6 +20,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <title>Új Termék</title>
 </head>
 <body>
+<?php include 'includes/header.php'; ?>
+
+<main>
     <h2>Új Termék Hozzáadása</h2>
     <form method="POST" action="add_product.php">
         <label>Név:</label><br>
@@ -32,5 +35,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <input type="number" name="stock" required><br><br>
         <button type="submit">Termék Hozzáadása</button>
     </form>
+</main>
 </body>
 </html>
